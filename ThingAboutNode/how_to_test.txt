@@ -1,0 +1,2 @@
+ab -n [NUMBER_OF_REQUESTS] -c [CONCURRENT_REQUESTS] http://localhost:8000/?city=London&city=Gdańsk&city=Chicago&city=Paris&city=Rome
+ab -n [NUMBER_OF_REQUESTS] -c [CONCURRENT_REQUESTS] http://localhost:4567/?cities[]=London&cities[]=Gdansk&cities[]=Chicago&cities[]=Paris&cities[]=Rome
